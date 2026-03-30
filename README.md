@@ -1,6 +1,6 @@
-# Chimera Portfolio
+# ChimericLabs LLC
 
-Minimal static site for the Chimera personality, published with GitHub Pages.
+Minimal static site for ChimericLabs LLC, published with GitHub Pages.
 
 ## Local preview
 
