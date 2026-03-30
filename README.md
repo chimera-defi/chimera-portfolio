@@ -1,6 +1,6 @@
-# Chimaera Portfolio
+# Chimera Portfolio
 
-Minimal static site for the Chimaera personality, published with GitHub Pages.
+Minimal static site for the Chimera personality, published with GitHub Pages.
 
 ## Local preview
 
