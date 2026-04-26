@@ -3,176 +3,321 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ChimericLabs LLC</title>
+    <title>ChimericLabs LLC — Engineering &amp; Consulting</title>
     <meta
       name="description"
       content="ChimericLabs LLC is an engineering, institution-infrastructure, and consulting firm with a track record across Sharedstake, Sharedtools, and launch-ready systems."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="shell">
-      <section class="hero">
-        <p class="eyebrow">ChimericLabs LLC</p>
-        <h1>Engineering, institution infrastructure, and consulting for teams that need to ship.</h1>
-        <p class="lede">
-          ChimericLabs LLC is a systems-minded engineering consulting and creation firm for founders, operators, and product
-          teams who need clearer plans, stronger specifications, disciplined execution, and institution-grade infrastructure.
-        </p>
-        <div class="metrics" aria-label="Chimera focus areas">
-          <div>
-            <strong>Product</strong>
-            <span>From rough idea to crisp brief</span>
-          </div>
-          <div>
-            <strong>Institution Infra</strong>
-            <span>Architecture, operations, and reliability foundations</span>
-          </div>
-          <div>
-            <strong>Consulting</strong>
-            <span>Technical strategy, delivery loops, and ship readiness</span>
-          </div>
-        </div>
-        <div class="actions">
-          <a href="#projects">Selected Projects</a>
+    <!-- Fixed header -->
+    <header class="site-header" aria-label="Site navigation">
+      <div class="header-inner">
+        <span class="header-logo">ChimericLabs</span>
+        <nav class="header-nav" aria-label="Primary navigation">
+          <a href="#projects">Work</a>
           <a href="https://github.com/chimera-defi" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://github.com/chimera-defi/chimericlabs-llc" target="_blank" rel="noreferrer">View Source</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- 01 Hero -->
+      <section class="hero" aria-labelledby="hero-headline">
+        <div class="hero-inner">
+          <div class="hero-eyebrow">
+            <span class="mono text-accent">ChimericLabs LLC</span>
+            <span class="eyebrow-sep" aria-hidden="true"></span>
+            <span class="mono text-muted">Engineering &amp; Consulting</span>
+          </div>
+
+          <h1 id="hero-headline" data-pretext>
+            Engineering, institution infrastructure, and consulting for teams that need to ship.
+          </h1>
+
+          <p class="hero-lede" data-pretext>
+            ChimericLabs LLC is a systems-minded firm for founders, operators, and product teams who need clearer
+            plans, stronger specifications, disciplined execution, and institution-grade infrastructure.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">Selected Work</a>
+            <a
+              href="https://github.com/chimera-defi"
+              target="_blank"
+              rel="noreferrer"
+              class="btn-ghost"
+              >GitHub &rarr;</a
+            >
+            <a
+              href="https://github.com/chimera-defi/chimericlabs-llc"
+              target="_blank"
+              rel="noreferrer"
+              class="btn-ghost"
+              >View Source</a
+            >
+          </div>
+        </div>
+
+        <!-- Focus areas strip -->
+        <div class="focus-strip" role="list" aria-label="Focus areas">
+          <div class="focus-item" role="listitem">
+            <span class="focus-num mono">01</span>
+            <strong class="focus-title">Product</strong>
+            <p class="focus-desc">From rough idea to crisp brief</p>
+          </div>
+          <div class="focus-item" role="listitem">
+            <span class="focus-num mono">02</span>
+            <strong class="focus-title">Institution Infra</strong>
+            <p class="focus-desc">Architecture, operations, and reliability foundations</p>
+          </div>
+          <div class="focus-item" role="listitem">
+            <span class="focus-num mono">03</span>
+            <strong class="focus-title">Consulting</strong>
+            <p class="focus-desc">Technical strategy, delivery loops, and ship readiness</p>
+          </div>
         </div>
       </section>
 
-      <section class="grid">
-        <article class="card">
-          <h2>What We Do</h2>
-          <p>
-            Turn rough ideas into structured execution: product framing, PRDs, technical specs, institution-infra planning,
-            and implementation-ready handoff.
-          </p>
-        </article>
-        <article class="card">
-          <h2>How We Work</h2>
-          <p>
-            Pragmatic over performative. Systems-minded over ornamental. Optimized for tradeoffs, constraints, and shipping
-            reality.
-          </p>
-        </article>
-        <article class="card">
-          <h2>Who We Serve</h2>
-          <p>
-            Early-stage teams, solo builders, and institutional operators who want a partner that can pressure-test direction
-            before code starts and support production-grade infrastructure decisions.
-          </p>
-        </article>
-      </section>
-
-      <section class="spotlight">
-        <div class="spotlight-copy">
-          <p class="section-label">Operating Mode</p>
-          <h2>Built for the messy moment before code and launch.</h2>
-          <p>
-            ChimericLabs LLC is strongest when direction is still unstable: validating an idea, cutting scope, forcing
-            decisions, and turning vague ambition into something a team can actually build and ship.
-          </p>
-        </div>
-        <div class="spotlight-panel">
-          <p class="section-label">Typical Outputs</p>
-          <ul>
-            <li>Product brief or PRD</li>
-            <li>Technical spec with constraints and risks</li>
-            <li>Execution plan with milestones and tradeoffs</li>
-            <li>Launch and cleanup checklist</li>
-          </ul>
+      <!-- 02 Approach -->
+      <section class="section approach" aria-labelledby="approach-heading">
+        <header class="section-hd">
+          <span class="mono section-idx">02</span>
+          <h2 id="approach-heading" class="section-label-text">Approach</h2>
+        </header>
+        <div class="approach-grid">
+          <article class="approach-card">
+            <h3>What We Do</h3>
+            <p>
+              Turn rough ideas into structured execution: product framing, PRDs, technical specs,
+              institution-infra planning, and implementation-ready handoff.
+            </p>
+          </article>
+          <article class="approach-card">
+            <h3>How We Work</h3>
+            <p>
+              Pragmatic over performative. Systems-minded over ornamental. Optimized for tradeoffs,
+              constraints, and shipping reality.
+            </p>
+          </article>
+          <article class="approach-card">
+            <h3>Who We Serve</h3>
+            <p>
+              Early-stage teams, solo builders, and institutional operators who want a partner that can
+              pressure-test direction before code starts and support production-grade infrastructure
+              decisions.
+            </p>
+          </article>
         </div>
       </section>
 
-      <section class="projects" id="projects" aria-label="Selected projects">
-        <div class="projects-header">
-          <p class="section-label">Selected Projects</p>
-          <h2>Portfolio work that matches the operating model.</h2>
-          <p>
-            Representative projects from the ChimericLabs orbit, including production properties and ongoing agent systems.
-          </p>
-        </div>
-
-        <article class="project-card">
-          <div class="project-topline">
-            <h3>Sharedstake.org</h3>
-            <span>Staking / DeFi</span>
+      <!-- 03 Operating Mode -->
+      <section class="section operating" aria-labelledby="operating-heading">
+        <header class="section-hd">
+          <span class="mono section-idx">03</span>
+          <h2 id="operating-heading" class="section-label-text">Operating Mode</h2>
+        </header>
+        <div class="operating-grid">
+          <div class="operating-copy">
+            <h3 class="serif operating-headline">
+              Built for the messy moment before code and launch.
+            </h3>
+            <p>
+              ChimericLabs LLC is strongest when direction is still unstable: validating an idea,
+              cutting scope, forcing decisions, and turning vague ambition into something a team can
+              actually build and ship.
+            </p>
           </div>
-          <p>
-            Public-facing staking product property, shipped and maintained with protocol-facing engineering and product
-            execution.
-          </p>
-          <div class="project-links">
-            <a href="https://www.sharedstake.org/" target="_blank" rel="noreferrer">Visit Site</a>
-            <a href="https://github.com/chimera-defi/sharedstake-oracle" target="_blank" rel="noreferrer">Related Repo</a>
+          <div class="operating-outputs">
+            <p class="mono outputs-label">Typical Outputs</p>
+            <ul class="outputs-list">
+              <li>Product brief or PRD</li>
+              <li>Technical spec with constraints and risks</li>
+              <li>Execution plan with milestones and tradeoffs</li>
+              <li>Launch and cleanup checklist</li>
+            </ul>
           </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-topline">
-            <h3>sharedtools.org</h3>
-            <span>Factory / Tooling</span>
-          </div>
-          <p>
-            Tooling-focused product surface with smart-contract and UI work across multiple sharedtools repositories.
-          </p>
-          <div class="project-links">
-            <a href="https://www.sharedtools.org/" target="_blank" rel="noreferrer">Visit Site</a>
-            <a href="https://github.com/chimera-defi/sharedtools-index" target="_blank" rel="noreferrer">Index Repo</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-topline">
-            <h3>Token Reduce Skill</h3>
-            <span>Agent Infrastructure</span>
-          </div>
-          <p>
-            Practical token-efficiency skillpack and telemetry loop for coding agents working across large repositories.
-          </p>
-          <div class="project-links">
-            <a href="https://github.com/chimera-defi/token-reduce-skill" target="_blank" rel="noreferrer">View Project</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-topline">
-            <h3>SpecForge</h3>
-            <span>Product Engineering</span>
-          </div>
-          <p>
-            Spec-first product workflow tooling for teams shaping requirements and execution before implementation.
-          </p>
-          <div class="project-links">
-            <a href="https://github.com/chimera-defi/specforge" target="_blank" rel="noreferrer">View Project</a>
-          </div>
-        </article>
-      </section>
-
-      <section class="profile">
-        <div>
-          <p class="section-label">Capabilities</p>
-          <ul>
-            <li>Product ideation and validation</li>
-            <li>Spec and PRD generation</li>
-            <li>Institution-grade infrastructure architecture</li>
-            <li>Protocol and platform consulting</li>
-            <li>Engineering cleanup, launches, and repo extraction</li>
-          </ul>
-        </div>
-        <div>
-          <p class="section-label">Firm Profile</p>
-          <p>
-            Direct, opinionated, technically rigorous, and useful under ambiguity. ChimericLabs LLC is built to reduce drift
-            between business intent and implementation reality.
-          </p>
         </div>
       </section>
 
-      <footer class="footer">
-        <span>ChimericLabs LLC</span>
-        <a href="https://chimera-defi.github.io/chimericlabs-llc/" target="_blank" rel="noreferrer">Live site</a>
-      </footer>
+      <!-- 04 Projects -->
+      <section class="section projects" id="projects" aria-labelledby="projects-heading">
+        <header class="section-hd">
+          <span class="mono section-idx">04</span>
+          <h2 id="projects-heading" class="section-label-text">Selected Projects</h2>
+        </header>
+        <p class="section-intro">
+          Representative projects from the ChimericLabs orbit, including production properties and
+          ongoing agent systems.
+        </p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-hd">
+              <span class="mono project-tag">Staking / DeFi</span>
+              <h3 class="serif">Sharedstake.org</h3>
+            </div>
+            <p>
+              Public-facing staking product property, shipped and maintained with protocol-facing
+              engineering and product execution.
+            </p>
+            <div class="project-links">
+              <a href="https://www.sharedstake.org/" target="_blank" rel="noreferrer"
+                >Visit Site &rarr;</a
+              >
+              <a
+                href="https://github.com/chimera-defi/sharedstake-oracle"
+                target="_blank"
+                rel="noreferrer"
+                >Related Repo</a
+              >
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-hd">
+              <span class="mono project-tag">Factory / Tooling</span>
+              <h3 class="serif">sharedtools.org</h3>
+            </div>
+            <p>
+              Tooling-focused product surface with smart-contract and UI work across multiple
+              sharedtools repositories.
+            </p>
+            <div class="project-links">
+              <a href="https://www.sharedtools.org/" target="_blank" rel="noreferrer"
+                >Visit Site &rarr;</a
+              >
+              <a
+                href="https://github.com/chimera-defi/sharedtools-index"
+                target="_blank"
+                rel="noreferrer"
+                >Index Repo</a
+              >
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-hd">
+              <span class="mono project-tag">Agent Infrastructure</span>
+              <h3 class="serif">Token Reduce Skill</h3>
+            </div>
+            <p>
+              Practical token-efficiency skillpack and telemetry loop for coding agents working
+              across large repositories.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/chimera-defi/token-reduce-skill"
+                target="_blank"
+                rel="noreferrer"
+                >View Project &rarr;</a
+              >
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-hd">
+              <span class="mono project-tag">Product Engineering</span>
+              <h3 class="serif">SpecForge</h3>
+            </div>
+            <p>
+              Spec-first product workflow tooling for teams shaping requirements and execution before
+              implementation.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/chimera-defi/specforge"
+                target="_blank"
+                rel="noreferrer"
+                >View Project &rarr;</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 05 Profile -->
+      <section class="section profile" aria-labelledby="profile-heading">
+        <header class="section-hd">
+          <span class="mono section-idx">05</span>
+          <h2 id="profile-heading" class="section-label-text">Firm Profile</h2>
+        </header>
+        <div class="profile-grid">
+          <div class="profile-caps">
+            <p class="mono outputs-label">Capabilities</p>
+            <ul class="caps-list">
+              <li>Product ideation and validation</li>
+              <li>Spec and PRD generation</li>
+              <li>Institution-grade infrastructure architecture</li>
+              <li>Protocol and platform consulting</li>
+              <li>Engineering cleanup, launches, and repo extraction</li>
+            </ul>
+          </div>
+          <div class="profile-statement">
+            <blockquote class="firm-quote serif">
+              "Direct, opinionated, technically rigorous, and useful under ambiguity."
+            </blockquote>
+            <p>
+              ChimericLabs LLC is built to reduce drift between business intent and implementation
+              reality.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span class="footer-brand mono">ChimericLabs LLC</span>
+        <div class="footer-links">
+          <a href="https://github.com/chimera-defi" target="_blank" rel="noreferrer">GitHub</a>
+          <a
+            href="https://chimera-defi.github.io/chimericlabs-llc/"
+            target="_blank"
+            rel="noreferrer"
+            >Live Site</a
+          >
+          <a
+            href="https://github.com/chimera-defi/chimericlabs-llc"
+            target="_blank"
+            rel="noreferrer"
+            >Source</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script type="module">
+      import { prepare, layout } from "https://esm.sh/@chenglou/pretext@0.1.11";
+
+      (async function () {
+        await document.fonts.ready;
+        const els = document.querySelectorAll("[data-pretext]");
+        const prepared = new Map();
+
+        for (const el of els) {
+          const font = getComputedStyle(el).font;
+          prepared.set(el, prepare(el.textContent, font));
+        }
+
+        function relayout() {
+          for (const [el, handle] of prepared) {
+            const lh = parseFloat(getComputedStyle(el).lineHeight);
+            const { height } = layout(handle, el.clientWidth, lh || 28);
+            el.style.height = height + "px";
+          }
+        }
+
+        new ResizeObserver(relayout).observe(document.body);
+        relayout();
+      })();
+    </script>
   </body>
 </html>
